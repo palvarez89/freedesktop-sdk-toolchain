@@ -33,22 +33,3 @@ toolchain(
     toolchain = "//configs/ubuntu16_04_clang/1.1/bazel_0.22.0/default:cc-compiler-k8",
     toolchain_type = "@bazel_tools//tools/cpp:toolchain_type",
 )
-
-# This target is auto-generated from release/cpp.tpl and should not be
-# modified directly.
-toolchain(
-    name = "cc-toolchain-clang-x86_64-msan",
-    exec_compatible_with = [
-        "@bazel_tools//platforms:linux",
-        "@bazel_tools//platforms:x86_64",
-        "@bazel_tools//tools/cpp:clang",
-        "//constraints:xenial",
-        "//constraints/sanitizers:support_msan",
-    ],
-    target_compatible_with = [
-        "@bazel_tools//platforms:linux",
-        "@bazel_tools//platforms:x86_64",
-    ],
-    toolchain = "//configs/ubuntu16_04_clang/1.1/bazel_0.22.0/msan:cc-compiler-k8",
-    toolchain_type = "@bazel_tools//tools/cpp:toolchain_type",
-)
