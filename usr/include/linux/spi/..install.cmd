@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/linux/spi/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/spi ./include/uapi/linux/spi spidev.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/spi ./include/generated/uapi/linux/spi ; touch /buildstream-install/usr/include/linux/spi/.install

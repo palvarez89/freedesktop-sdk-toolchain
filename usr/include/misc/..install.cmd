@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/misc/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/misc ./include/uapi/misc cxl.h ocxl.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/misc ./include/generated/uapi/misc ; touch /buildstream-install/usr/include/misc/.install

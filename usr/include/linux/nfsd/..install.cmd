@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/linux/nfsd/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/nfsd ./include/uapi/linux/nfsd debug.h nfsfh.h export.h stats.h cld.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/nfsd ./include/generated/uapi/linux/nfsd ; touch /buildstream-install/usr/include/linux/nfsd/.install

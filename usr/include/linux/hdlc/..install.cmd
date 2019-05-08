@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/linux/hdlc/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/hdlc ./include/uapi/linux/hdlc ioctl.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/hdlc ./include/generated/uapi/linux/hdlc ; touch /buildstream-install/usr/include/linux/hdlc/.install

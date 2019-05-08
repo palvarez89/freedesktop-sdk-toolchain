@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/xen/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/xen ./include/uapi/xen privcmd.h gntalloc.h gntdev.h evtchn.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/xen ./include/generated/uapi/xen ; touch /buildstream-install/usr/include/xen/.install

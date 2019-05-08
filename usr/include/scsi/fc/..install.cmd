@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/scsi/fc/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/scsi/fc ./include/uapi/scsi/fc fc_els.h fc_gs.h fc_ns.h fc_fs.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/scsi/fc ./include/generated/uapi/scsi/fc ; touch /buildstream-install/usr/include/scsi/fc/.install

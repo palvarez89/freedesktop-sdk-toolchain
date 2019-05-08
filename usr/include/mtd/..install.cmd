@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/mtd/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/mtd ./include/uapi/mtd ubi-user.h nftl-user.h mtd-abi.h mtd-user.h inftl-user.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/mtd ./include/generated/uapi/mtd ; touch /buildstream-install/usr/include/mtd/.install

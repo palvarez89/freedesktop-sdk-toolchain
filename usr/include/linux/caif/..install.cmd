@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/linux/caif/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/caif ./include/uapi/linux/caif if_caif.h caif_socket.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/caif ./include/generated/uapi/linux/caif ; touch /buildstream-install/usr/include/linux/caif/.install

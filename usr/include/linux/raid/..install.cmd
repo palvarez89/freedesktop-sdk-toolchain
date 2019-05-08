@@ -1,0 +1,1 @@
+cmd_/buildstream-install/usr/include/linux/raid/.install := /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/raid ./include/uapi/linux/raid md_u.h md_p.h; /bin/sh scripts/headers_install.sh /buildstream-install/usr/include/linux/raid ./include/generated/uapi/linux/raid ; touch /buildstream-install/usr/include/linux/raid/.install
