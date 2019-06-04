@@ -54,7 +54,7 @@ OBJDUMP="objdump"
 build_libtool_libs=yes
 
 # Whether or not to build static libraries.
-build_old_libs=no
+build_old_libs=yes
 
 # What type of objects to build.
 pic_mode=default

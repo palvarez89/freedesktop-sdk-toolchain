@@ -11,7 +11,7 @@
  * Source directory  : .
  * Configuration time: Thu Nov 10 15:00:00 UTC 2011
  * Configured by     : unknown
- * Target system     : linux buildstream 4.20.13-200.fc29.x86_64 #1 smp wed feb 27 19:42:55 utc 2019 x86_64 gnulinux 
+ * Target system     : linux buildstream 4.15.0-1032-aws #34-ubuntu smp thu jan 17 15:18:09 utc 2019 x86_64 gnulinux 
  */
 
 #ifndef _config_h_
@@ -1375,7 +1375,7 @@
  *	feature tests from Configure are generally more reliable.
  */
 #define OSNAME "linux"		/**/
-#define OSVERS "4.20.13-200.fc29.x86_64"		/**/
+#define OSVERS "4.15.0-1032-aws"		/**/
 
 /* CAT2:
  *	This macro concatenates 2 tokens together.

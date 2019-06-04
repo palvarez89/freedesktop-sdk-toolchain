@@ -98,7 +98,7 @@ tie %Config, 'Config', {
     ldlibpthname => 'LD_LIBRARY_PATH',
     libpth => '/usr/lib/x86_64-linux-gnu /usr/lib/gcc/x86_64-unknown-linux-gnu/8.3.0/include-fixed /usr/lib /lib/x86_64-linux-gnu /lib/../lib64 /usr/lib/../lib64 /lib /lib64 /usr/lib64',
     osname => 'linux',
-    osvers => '4.20.13-200.fc29.x86_64',
+    osvers => '4.15.0-1032-aws',
     path_sep => ':',
     privlibexp => '/usr/lib/perl5/5.28.1',
     scriptdir => '/usr/bin',

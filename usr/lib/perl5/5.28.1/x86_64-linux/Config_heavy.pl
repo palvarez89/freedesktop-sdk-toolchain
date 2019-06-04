@@ -77,7 +77,7 @@ sub header_files {
 ## Source directory  : .
 ## Configuration time: Thu Nov 10 15:00:00 UTC 2011
 ## Configured by     : unknown
-## Target system     : linux buildstream 4.20.13-200.fc29.x86_64 #1 smp wed feb 27 19:42:55 utc 2019 x86_64 gnulinux 
+## Target system     : linux buildstream 4.15.0-1032-aws #34-ubuntu smp thu jan 17 15:18:09 utc 2019 x86_64 gnulinux 
 #
 #: Configure command line arguments.
 #
@@ -1115,7 +1115,7 @@ mv=''
 myarchname='x86_64-linux'
 mydomain='.nonet'
 myhostname='buildstream'
-myuname='linux buildstream 4.20.13-200.fc29.x86_64 #1 smp wed feb 27 19:42:55 utc 2019 x86_64 gnulinux '
+myuname='linux buildstream 4.15.0-1032-aws #34-ubuntu smp thu jan 17 15:18:09 utc 2019 x86_64 gnulinux '
 n='-n'
 need_va_copy='define'
 netdb_hlen_type='size_t'
@@ -1144,7 +1144,7 @@ old_pthread_create_joinable=''
 optimize=' '
 orderlib='false'
 osname='linux'
-osvers='4.20.13-200.fc29.x86_64'
+osvers='4.15.0-1032-aws'
 otherlibdirs=' '
 package='perl5'
 pager='/usr/ucb/more'
